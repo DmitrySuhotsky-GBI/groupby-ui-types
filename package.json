@@ -1,8 +1,12 @@
 {
   "name": "@groupby/ui-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/DmitrySuhotsky-GBI/groupby-ui-types/issues"
   },
-  "homepage": "https://github.com/DmitrySuhotsky-GBI/groupby-ui-types#readme"
+  "homepage": "https://github.com/DmitrySuhotsky-GBI/groupby-ui-types#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
 }
